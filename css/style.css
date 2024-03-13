@@ -1,0 +1,74 @@
+ body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(131, 177, 180);
+        color: rgb(0, 0, 0);
+        margin: 0px;
+        padding: 0px;
+        display: flex ;
+ }
+
+ #content {
+        width: 50%;
+        margin: auto;
+        border: 5px solid #000000;
+        border-style: groove;
+ }
+
+ #banner {
+        background-color: rgb(110, 110, 110);
+        text-align: center;
+        border: 5px solid #000000;
+        margin: 5px;
+        border-style: groove;
+
+ }
+
+ #blogpost {
+        margin: 10px;
+        border: 1px solid #000000;
+        background-color: rgb(110, 110, 110);
+       
+ }
+
+ .post {
+        margin: 5px;
+        padding: 10px;
+        border: 5px solid #000000;
+        background-color: rgb(110, 110, 110);
+        border-bottom-style: groove;
+        width: auto;
+ }
+
+ .post .left {
+        float: left;
+        margin-right: 10px;
+
+
+
+ }
+
+ .post img {
+        width: 131px;
+        height: 131px;
+
+
+ }
+
+ .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+ }
+
+ a {
+        color: rgb(255, 255, 255);
+ }
+
+ a:hover {
+        color: rgb(255, 255, 255);
+ }
+
+ a:visited {
+        color: aliceblue;
+ }
+

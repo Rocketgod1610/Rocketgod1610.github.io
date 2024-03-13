@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>F16 Falcon</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link id="lightSheet" rel="stylesheet" media="none" href="css/dark.css">
+    <link id="darkSheet" rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div id="content">
+        <div id="banner">
+            <h1>Get to School</h1>
+            <a href="about.html">about Me</a> |
+            <a href="Gameguide.html"> Game guide </a>
+            <button onclick="history.back()"> Go Back </button>
+            <a href="#" onclick="changeSheet()">Change Mode</a>
+            
+
+        </div>
+        <div id="blogposts">
+            <div class="post">
+                <h2> play my game </h2>
+                <p>Get to school 5 is the 5th version of Get to school And it's about the journey of getting to school
+                    were you fight monsters and find loot to battle those monsters off. You can also get potions to heal
+                    yourslef and give you damage boosters.
+                    Their are also traders that are willing to sell and trade items with you.
+                    Items like food a luck potion and many more like the dragon armour and weapons.
+                    Get to school is still getting updated and many more cool and exciting things will be happening.</p>
+                <p> click <a href="Get To School 5/index.html">here</a> to play </p>
+                <p> click <a href="about.html"> here</a> to learn about me.</p>
+            </div>
+            <div class="post">
+                <h2> Gallery </h2>
+                <div class="gallery">
+                    <a href="img/tower.png"> <img src="Img/tower.png"></a>
+                    <a href="img/maze.png"> <img src="Img/maze.png"></a>
+                    <a href="img/house.png"> <img src="Img/house.png"></a>
+                    <a href="img/home.png"> <img src="Img/home.png"></a>
+                    <a href="img/BoudlerpassMT.png"> <img src="Img/BoudlerpassMT.png"></a>
+                    <a href="img/boudler.png"> <img src="Img/boudler.png"></a>
+                </div>
+            </div>
+        </div>
+        </a>
+    </div>
+</body>
+<script>
+    var lightMode = true
+    function changeSheet() {
+        //make light mode equle not lightmode
+        lightMode = !lightMode;
+        var lightSheet = document.getElementById("lightSheet");
+        var darkSheet = document.getElementById("darkSheet");
+
+        // If lightmode turned off, display dark stylesheet
+        if (lightMode == false) {
+            console.log("truning dark mode on...");
+            darkSheet.media = "";
+            lightSheet.media = "none";
+        } else {
+            console.log("truning light mode on...");
+            darkSheet.media = "none";
+            lightSheet.media = "";
+        }
+    }
+
+</script>
+</html>
